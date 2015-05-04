@@ -1,0 +1,21 @@
+---
+title: "StanfordML"
+author: "Aaman"
+date: "May 4, 2015"
+output: html_document
+---
+
+Load Libraries, data
+```{r, echo=FALSE}
+pmlTrain2 = read.csv("pml-training.csv")
+pmlTest2 = read.csv("pml-testing.csv")
+pmlTrain = pmlTrain2
+pmlTest = pmlTest2
+summary(pmlTrain)
+summary(pmlTest)
+```
+
+
+```{r, echo=FALSE}
+
+```
